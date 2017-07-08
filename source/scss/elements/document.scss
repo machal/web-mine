@@ -1,0 +1,17 @@
+body,
+input,
+select,
+textarea {
+  color: var(--color-text);
+  font-family: var(--wm-font-family);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-secondary);
+}

@@ -1,8 +1,34 @@
 // Web Mine index
+// ==============
+
+@-ms-viewport { width: device-width; }
+
+// Settings
+// --------
+
+@import "settings/text";
+@import "settings/color";
+
+
+// Generic
+// -------
 
 @import "vendor/normalize";
 @import "vendor/blanka";
 
+
+// Elements
+// --------
+
+@import "elements/document";
+
+// Components
+// ----------
+
 @import "../_patterns/00-atoms/buttons/button";
+
+
+// Trumps
+// ------
 
 @import "vendor/blanka-helpers";
