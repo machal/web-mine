@@ -6,7 +6,7 @@ module.exports = {
     options: {
       map: true,
       processors: [
-        require('pixrem')(),
+        // require('pixrem')(),
         require('autoprefixer')({
           browsers: [
             'Android 2.3',
