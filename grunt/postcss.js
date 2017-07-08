@@ -4,6 +4,7 @@ module.exports = {
 
   default: {
     options: {
+      map: true,
       processors: [
         require('pixrem')(),
         require('autoprefixer')({
@@ -27,7 +28,7 @@ module.exports = {
     },
     files: {
       'public/css/style.min.css': 'public/css/style.css',
-      'public/css/pattern-scaffolding.min.css': 'public/css/pattern-scaffolding.css'
+      'public/css/pattern-scaffolding.min.css': 'source/css/pattern-scaffolding.css'
     }
   }
 
