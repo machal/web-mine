@@ -3,7 +3,7 @@
 module.exports = {
 
   sass: {
-    files: ['source/_patterns/**/*.scss', 'source/css/**/*.scss', 'source/brand/**/*.scss'],
+    files: ['source/_patterns/**/*.scss', 'source/scss/**/*.scss'],
     tasks: ['css'],
 	  options: {
 	    spawn: false
@@ -18,19 +18,12 @@ module.exports = {
     }
   },
 
-  images: {
-    files: [
-      'source/images/**/*.jpg', 'source/images/**/*.svg', 'source/images/**/*.png',
-      'source/brand/**/*.jpg', 'source/brand/**/*.svg', 'source/brand/**/*.png',
-    ],
-    tasks: ['img'],
-    options: {
-      spawn: false
-    }
-  },
-
   html: {
-    files: ['source/_patterns/**/**/*.twig', 'source/_patterns/**/**/*.md', 'source/_patterns/**/**/*.json', 'source/**/*.json'],
+    files: [
+      'source/**/*.mustache', 
+      'source/**/*.md', 
+      'source/**/*.json'
+    ],
     tasks: ['shell:patternlab'],
     options: {
       spawn: false

@@ -12,7 +12,7 @@ module.exports = {
         dest: 'public/css/pattern-scaffolding.css'
       },
       {
-        src: 'source/css/style.scss',
+        src: 'source/scss/index.scss',
         dest: 'public/css/style.css'
       }
     ]

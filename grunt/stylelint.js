@@ -1,6 +1,3 @@
-// StyleLint
-// =========
-
 'use strict';
 
 module.exports = {
@@ -11,7 +8,7 @@ module.exports = {
       failOnError: false
     },
     src: [
-      'source/_patterns/**/**/*.scss'
+      'source/**/*.scss'
     ]
   }
 

@@ -13,9 +13,9 @@ module.exports = {
     options: {
       server: './public/',
       watchTask: true,
-      port: 3400,
+      port: 3444,
       ui: {
-        port: 3401,
+        port: 3445,
         weinre: {
             port: 9090
         }
