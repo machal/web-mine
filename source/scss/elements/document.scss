@@ -1,17 +1,16 @@
-body,
-input,
-select,
-textarea {
-  color: var(--color-text);
+html {
   font-family: var(--wm-font-family);
+  font-size: var(--wm-font-size-base);
+  line-height: var(--wm-line-height-base);
+  color: var(--wm-color-text);
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--wm-color-primary);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: var(--color-secondary);
+  color: var(--wm-color-secondary);
 }
