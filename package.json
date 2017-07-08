@@ -38,6 +38,7 @@
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
+    "blanka-css": "github:machal/blanka-html",
     "normalize.css": "^7.0.0"
   }
 }

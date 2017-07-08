@@ -1,9 +1,6 @@
-node_modules
+node_modules/*
 public/*
-!public/index.html
-!public/styleguide
-public/styleguide/data/patternlab-data.js
-public/styleguide/html/styleguide.html
+vendor/*
 
 ## macOS ###
 *.DS_Store
@@ -11,7 +8,6 @@ public/styleguide/html/styleguide.html
 .LSOverride
 
 
-!source/_patterns/00-atoms/icon
 # Thumbnails
 ._*
 # Files that might appear in the root of a volume
@@ -29,4 +25,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.sublime-project
-vendor/
+
