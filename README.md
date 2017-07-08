@@ -1,12 +1,18 @@
 # Web Mine: The design system for the tiny websites
 
-## Installation
+## Instalation
 
 ```bash
-# Front-end workflow 
+# Front-end workflow dependencies
 npm install
 
-# Pattern Lab PHP/Mustache edition
-
+# Pattern Lab PHP/Mustache edition dependencies
+composer install
 ```
 
+## Run
+
+
+```bash
+grunt
+```
