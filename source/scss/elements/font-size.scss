@@ -1,25 +1,29 @@
 h1,
 .h1,
 .fz-xxxl {
-	font-size: 2.441rem;
+	font-size: var(--wm-font-size-xxxl);
+  line-height:  var(--wm-line-height-xs);
 }
 
 h2,
 .h2,
 .fz-xxl {
 	font-size: var(--wm-font-size-xxl);
+  line-height:  var(--wm-line-height-xs);
 }
 
 h3,
 .h3,
 .fz-xl {
 	font-size: var(--wm-font-size-xl);
+  line-height:  var(--wm-line-height-xs);
 }
 
 h4,
 .h4,
 .fz-lg {
 	font-size: var(--wm-font-size-lg);
+  line-height:  var(--wm-line-height-sm);
 }
 
 h6,
@@ -34,4 +38,5 @@ h5,
 small,
 .fz-sm {
 	font-size: var(--wm-font-size-sm);
+  line-height:  var(--wm-line-height-xs);
 }
