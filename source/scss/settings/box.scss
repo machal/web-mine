@@ -1,0 +1,9 @@
+:root {
+  --wm-box-padding-lg: .5rem;    
+  --wm-box-padding-md: .25rem;
+  --wm-box-padding-sm: .125rem;    
+  --wm-box-padding: var(--wm-box-padding-md);
+
+  --wm-box-border: 1px solid var(--wm-color-gray-400);
+  --wm-box-radius: .25rem;
+}

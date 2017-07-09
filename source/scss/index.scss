@@ -8,6 +8,7 @@
 
 @import "settings/text";
 @import "settings/color";
+@import "settings/box";
 
 
 // Generic
@@ -21,6 +22,9 @@
 // --------
 
 @import "elements/document";
+@import "elements/table";
+@import "elements/forms";
+@import "elements/font-size";
 
 // Components
 // ----------

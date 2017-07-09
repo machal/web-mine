@@ -1,0 +1,10 @@
+/* Leaving props which cannot be on input, button etc. because it 
+   will remove default browser colors.
+ */
+.wm-input {
+  display: inline-flex;
+  background: transparent;
+  border: var(--wm-box-border);
+  border-radius: var(--wm-box-radius);
+}
+

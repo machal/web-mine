@@ -1,0 +1,19 @@
+table {
+  margin-bottom: 1.25em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: var(--wm-box-padding);
+}
+
+table caption {
+  font-weight: bold;
+  text-align: center;
+  padding: var(--wm-box-padding) 0;
+}
+
+

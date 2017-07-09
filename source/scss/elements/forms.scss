@@ -1,0 +1,20 @@
+input,
+select,
+textarea,
+button {
+  padding: var(--wm-box-padding);
+}
+
+button,
+input[type="checkbox"],
+input[type="submit"],
+input[type="reset"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+input::-moz-focus-inner,
+select::-moz-focus-inner,
+textarea::-moz-focus-inner {
+  padding: 0;
+}
