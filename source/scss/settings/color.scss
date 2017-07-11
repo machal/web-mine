@@ -16,6 +16,16 @@ $colors-essential: (
   epsilon: #B43B18,    // VD red - TODO for neutral: darkblue
 );
 
+// Text colors
+// -----------
+
+$colors-text: (
+  text: darken(map-get($colors-essential, gama), 10%),
+  text-light: map-get($colors-essential, gama),
+  headings: darken(map-get($colors-essential, alpha), 10%)
+);
+
+
 // Primary colors
 // --------------
 
@@ -26,22 +36,19 @@ $colors-primary: (
   primary-active: map-get($colors-essential, beta),
 );
 
-// Text colors
-// -----------
-
-$colors-text: (
-  text: darken(map-get($colors-essential, gama), 50%),
-  headings: map-get($colors-essential, alpha)
-);
 
 // Grays
 // -----
 
 $colors-gray: (
-  gray-200: #e9ecef,   // VD green - TODO neutral: #e9ecef
-  gray-400: #ced4da,   // VD green - TODO neutral: #ced4da
-  gray-600: #868e96,   // VD green - TODO neutral: #868e96
-  gray-800: #343a40,   // VD green - TODO neutral: #343a40
+  // TODO neutral from Bootstrap: #e9ecef
+  gray-200: mix(#eee, map-get($colors-essential, alpha), 90%),
+  // TODO neutral from Bootstrap: #ced4da
+  gray-400: mix(#ccc, map-get($colors-essential, alpha), 90%),
+  // TODO neutral from Bootstrap: #868e96
+  gray-600: mix(#999, map-get($colors-essential, alpha), 90%),
+  // TODO neutral from Bootstrap: #343a40
+  gray-800: mix(#333, map-get($colors-essential, alpha), 90%),
 );
 
 
