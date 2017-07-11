@@ -1,9 +1,20 @@
 :root {
-  --wm-color-primary: blue;    
-  --wm-color-secondary: red;
-  
-  --wm-color-gray-200: #e9ecef;
-  --wm-color-gray-400: #ced4da;
-  --wm-color-gray-600: #868e96;
-  --wm-color-gray-800: #343a40;
+  /*
+  Temporary scheme for development reasons
+  https://coolors.co/002c3a-5fa316-48440e-b43b18-ede29f
+  https://github.com/machal/web-mine/issues/2
+  */
+  --wm-color-alpha:   #5FA316;    /* VD green - neutral: blue */
+  --wm-color-beta:    #002C3A;    /* VD darkgreen - neutral: red */
+  --wm-color-gama:    #48440E;    /* VD brown - neutral: darkgrey */
+  --wm-color-delta:   #EDE29F;    /* VD yellow - neutral: darkblue */
+  --wm-color-epsilon: #B43B18;    /* VD red - neutral: darkblue */
+
+  --wm-color-primary: var(--wm-color-alpha);
+  --wm-color-primary-active: var(--wm-color-beta);
+
+  --wm-color-gray-200: #e9ecef;   /* VD green - neutral: #e9ecef */
+  --wm-color-gray-400: #ced4da;   /* VD green - neutral: #ced4da */
+  --wm-color-gray-600: #868e96;   /* VD green - neutral: #868e96 */
+  --wm-color-gray-800: #343a40;   /* VD green - neutral: #343a40 */
 }
