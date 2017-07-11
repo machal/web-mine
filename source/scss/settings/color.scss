@@ -1,20 +1,69 @@
+// Define Sass variables
+// =====================
+
+// Essential colors
+// ----------------
+
+// This is the temporary scheme for development reasons.
+// https://coolors.co/002c3a-5fa316-48440e-b43b18-ede29f
+// https://github.com/machal/web-mine/issues/2
+
+$colors-essential: (
+  alpha:   #5FA316,    // VD green - TODO for neutral: blue
+  beta:    #002C3A,    // VD darkgreen - TODO for neutral: red
+  gama:    #48440E,    // VD brown - TODO for neutral: darkgrey
+  delta:   #EDE29F,    // VD yellow - TODO for neutral: darkblue
+  epsilon: #B43B18,    // VD red - TODO for neutral: darkblue
+);
+
+// Primary colors
+// --------------
+
+// Anchors, primary buttons…
+
+$colors-primary: (
+  primary: map-get($colors-essential, alpha),
+  primary-active: map-get($colors-essential, beta),
+);
+
+// Text colors
+// -----------
+
+$colors-text: (
+  text: darken(map-get($colors-essential, gama), 50%),
+  headings: map-get($colors-essential, alpha)
+);
+
+// Grays
+// -----
+
+$colors-gray: (
+  gray-200: #e9ecef,   // VD green - TODO neutral: #e9ecef
+  gray-400: #ced4da,   // VD green - TODO neutral: #ced4da
+  gray-600: #868e96,   // VD green - TODO neutral: #868e96
+  gray-800: #343a40,   // VD green - TODO neutral: #343a40
+);
+
+
+// Generate CSS Custom Properties
+// ==============================
+
 :root {
-  /*
-  Temporary scheme for development reasons
-  https://coolors.co/002c3a-5fa316-48440e-b43b18-ede29f
-  https://github.com/machal/web-mine/issues/2
-  */
-  --wm-color-alpha:   #5FA316;    /* VD green - neutral: blue */
-  --wm-color-beta:    #002C3A;    /* VD darkgreen - neutral: red */
-  --wm-color-gama:    #48440E;    /* VD brown - neutral: darkgrey */
-  --wm-color-delta:   #EDE29F;    /* VD yellow - neutral: darkblue */
-  --wm-color-epsilon: #B43B18;    /* VD red - neutral: darkblue */
 
-  --wm-color-primary: var(--wm-color-alpha);
-  --wm-color-primary-active: var(--wm-color-beta);
+  @each $name, $color in $colors-essential {
+   --wm-color-#{$name}: $color;
+  }
 
-  --wm-color-gray-200: #e9ecef;   /* VD green - neutral: #e9ecef */
-  --wm-color-gray-400: #ced4da;   /* VD green - neutral: #ced4da */
-  --wm-color-gray-600: #868e96;   /* VD green - neutral: #868e96 */
-  --wm-color-gray-800: #343a40;   /* VD green - neutral: #343a40 */
+  @each $name, $color in $colors-primary {
+   --wm-color-#{$name}: $color;
+  }
+
+  @each $name, $color in $colors-text {
+   --wm-color-#{$name}: $color;
+  }
+
+  @each $name, $color in $colors-gray {
+   --wm-color-#{$name}: $color;
+  }
+
 }
