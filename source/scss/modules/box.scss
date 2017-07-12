@@ -1,0 +1,19 @@
+/*
+1: for forms elements
+*/
+
+.wm-box {
+  appearance: none; /* 1 */
+  background: transparent; /* 1 */
+  padding: 0.25rem 1rem;
+  border: 1px solid var(--wm-color-text-light);
+  border-radius: 3px;
+}
+
+.wm-box--lg {
+  padding: .5rem 1rem;
+}
+
+.wm-box--sm {
+  padding: .125rem 1rem;
+}

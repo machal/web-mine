@@ -9,6 +9,8 @@
     "bodyClass": "body",
     "btnTag" : "button",
     "btnText" : "Button",
+    "boxTag" : "span",
+    "boxText" : "Box",
     "progress" : true,
     "max" : "100",
     "progressValue" : "85",

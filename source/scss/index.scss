@@ -27,10 +27,16 @@
 @import "elements/font-size";
 @import "elements/headings";
 
+// Modules
+// -------
+
+@import "modules/box";
+
+
 // Components
 // ----------
 
-@import "../_patterns/00-atoms/buttons/button";
+@import "components/buttons";
 
 
 // Trumps

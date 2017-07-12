@@ -1,5 +1,4 @@
-btnClass: wm-button--primary
-btnText: Primary button
+btnText: Button on anchor
 btnTag: a
 btnAttr: href='#'
 
