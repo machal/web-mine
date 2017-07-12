@@ -7,6 +7,7 @@
     "pageTitle": "Page Title",
     "htmlClass": "pl",
     "bodyClass": "body",
+    "btnTag" : "button",
     "btnText" : "Button",
     "progress" : true,
     "max" : "100",
@@ -229,8 +230,8 @@
 		{
 			"url" : "#",
 			"number" : "10"
-		}				
-	],			
+		}
+	],
     "sectionBlock" : true,
     "textButton" : true,
 	"overlayMessage" : "Let's go on a hike and climb in elevation",

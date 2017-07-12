@@ -20,9 +20,10 @@ module.exports = {
 
   html: {
     files: [
-      'source/**/*.mustache', 
-      'source/**/*.md', 
-      'source/**/*.json'
+      'source/**/*.mustache',
+      'source/**/*.md',
+      'source/**/*.json',
+      'source/**/*.yml'
     ],
     tasks: ['shell:patternlab'],
     options: {

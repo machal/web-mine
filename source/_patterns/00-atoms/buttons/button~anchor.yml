@@ -1,0 +1,5 @@
+btnClass: wm-button--primary
+btnText: Primary button
+btnTag: a
+btnAttr: href='#'
+
