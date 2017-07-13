@@ -10,11 +10,22 @@ module.exports = {
   blanka: {
     src: 'node_modules/blanka-css/blanka.css',
     dest: 'source/scss/vendor/blanka.css'
-  },  
+  },
 
   blanka_helpers: {
     src: 'node_modules/blanka-css/blanka-helpers.css',
     dest: 'source/scss/vendor/blanka-helpers.css'
-  }   
+  },
+
+  patternlab_images: {
+    files : [
+      {
+        cwd: 'source/images/',
+        expand: true,
+        src: ['**/*.*'],
+        dest: 'public/images/'
+      }
+    ]
+  }
 
 };

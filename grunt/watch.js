@@ -25,7 +25,7 @@ module.exports = {
       'source/**/*.json',
       'source/**/*.yml'
     ],
-    tasks: ['shell:patternlab'],
+    tasks: ['shell:patternlab', 'copy:patternlab_images'],
     options: {
       spawn: false
     }
