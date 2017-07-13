@@ -1,0 +1,35 @@
+/*
+
+1) Possible use with <a>
+
+
+*/
+
+
+.wm-button {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; /* 1 */
+}
+
+.wm-button--primary {
+    transition: all 100ms; /* TODO var */
+    background: var(--wm-color-primary);
+    color: white; /* TODO var */
+    text-shadow: none;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.25),
+      inset -1px -1px 1px rgba(0,0,0,.25);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: var(--wm-color-primary-active);
+      color: white;
+    }
+
+    &:active {
+      box-shadow: 1px 1px 2px rgba(0,0,0,.25),
+        inset 1px 1px 1px rgba(0,0,0,.25);
+    }
+
+}
