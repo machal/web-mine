@@ -1,13 +1,19 @@
 /*
 1: for forms elements
+2: for possible inner layout (box with icon etc.)
 */
 
 .wm-box {
   appearance: none; /* 1 */
   background: transparent; /* 1 */
-  padding: 0.25rem 1rem;
-  border: 1px solid var(--wm-color-text-light);
+  display: inline-flex;
+  padding: .25rem 1rem;
+  border: 1px solid var(--wm-color-text);
   border-radius: 3px;
+}
+
+.wm-box--xl {
+  padding: 1rem 1.5rem;
 }
 
 .wm-box--lg {
