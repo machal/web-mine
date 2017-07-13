@@ -1,0 +1,17 @@
+.wm-table {
+  width: 100%;
+  border-top: var(--wm-box-border);
+
+  th,
+  td {
+    text-align: left;
+    padding: var(--wm-box-padding-md);
+    border-bottom: var(--wm-box-border);
+  }
+
+  caption {
+    font-weight: bold;
+    text-align: center;
+    padding: var(--wm-box-padding-md);
+  }
+}
