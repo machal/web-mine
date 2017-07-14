@@ -1,0 +1,25 @@
+.wm-container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+}
+
+/* Container with content inside: white background and border radius */
+
+.wm-container--content {
+  background: white;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.1);
+
+  @media only screen and (min-width: 768px) {
+    border-radius: var(--wm-box-radius);
+  }
+
+  @media print {
+    box-shadow: none; /* reset block shadow */
+  }
+}
