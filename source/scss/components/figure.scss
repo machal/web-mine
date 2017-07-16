@@ -1,0 +1,15 @@
+.wm-figure {
+  border-bottom: 1px dotted var(--wm-color-text-light);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.wm-figure__figcaption {
+  font-style: italic;
+  font-size: var(--wm-font-size-sm);
+  color: var(--wm-color-text-light);
+}
+
+.wm-figure__figcaption p {
+  margin-top: 1rem;
+}

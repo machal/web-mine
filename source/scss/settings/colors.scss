@@ -21,7 +21,7 @@ $colors-essential: (
 
 $colors-text: (
   text: darken(map-get($colors-essential, gama), 10%),
-  text-light: mix(map-get($colors-essential, gama), white, 50%),
+  text-light: mix(map-get($colors-essential, gama), white, 66%),
   headings: darken(map-get($colors-essential, alpha), 10%)
 );
 
