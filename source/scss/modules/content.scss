@@ -9,3 +9,10 @@
 .wm-content--wide {
   max-width: 66rem; /* TODO Guesswork */
 }
+
+/* Responsive images only in the content */
+
+.wm-content img {
+  max-width: 100%;
+  height: auto;
+}
