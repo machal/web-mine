@@ -1,0 +1,33 @@
+pre {
+  overflow: auto;
+  max-width: 100%;
+  white-space: pre;
+  line-height: 1.15;
+}
+
+/* No margin-bottom; because of potentional scrollbar: */
+pre {
+  padding-bottom: 1.25rem;
+  margin-bottom: 0;
+}
+
+code, kbd {
+  font-family: var(--wm-font-family-monospaced);
+  color: var(--wm-color-code);
+  letter-spacing: -0.01rem;
+}
+
+pre code {
+  white-space: pre;
+}
+
+// TODO - do we need this?
+// a code {
+//   color: mix($vd-green-color, $vd-code-color);
+// }
+
+// h1, h2, h3, h4 {
+//   code {
+//     color: mix($vd-text-color-lighter, $vd-code-color);
+//   }
+// }

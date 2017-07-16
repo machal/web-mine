@@ -37,6 +37,14 @@ $colors-primary: (
 );
 
 
+// Code colors
+// -----------
+
+$colors-code: (
+  code: mix(map-get($colors-essential, epsilon), map-get($colors-text, text), 40%),
+  code-lighter: lighten(map-get($colors-essential, epsilon), 9%)
+);
+
 // Grays
 // -----
 
@@ -62,6 +70,10 @@ $colors-gray: (
   }
 
   @each $name, $color in $colors-primary {
+   --wm-color-#{$name}: $color;
+  }
+
+  @each $name, $color in $colors-code {
    --wm-color-#{$name}: $color;
   }
 

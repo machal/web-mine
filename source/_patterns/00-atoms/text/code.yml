@@ -1,0 +1,5 @@
+code: |
+  <picture>
+    <source type="image/svg+xml" srcset="logo.svg">
+    <img src="logo.png" alt="…">
+  </picture>
